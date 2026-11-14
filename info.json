@@ -4,6 +4,7 @@
   "title": "Belt Balancer Redux",
   "author": "Wilexcess",
   "contact": "wilexcess@gmail.com",
+  "homepage": "https://github.com/Weroxin/belt-balancer-redux",
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.0",
