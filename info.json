@@ -1,0 +1,17 @@
+{
+  "name": "belt-balancer-redux",
+  "version": "1.0.0",
+  "title": "Belt Balancer Redux",
+  "author": "Wilexcess",
+  "contact": "wilexcess@gmail.com",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1.0",
+    "(?) space-age",
+    "! belt-balancer",
+    "! belt-balancer-performance",
+    "! belt-balancer-2"
+  ],
+  "migrates_from": ["belt-balancer-2"],
+  "description": "Balancer parts that join into one balancer of any shape. Items from every belt going in are split evenly across every belt coming out. Rewrite of Belt Balancer 2 for Factorio 2.1; saves using Belt Balancer 2 carry over."
+}

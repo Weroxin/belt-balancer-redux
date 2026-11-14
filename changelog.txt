@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 14.11.2026
+  Info:
+    - Rewrite of Belt Balancer 2 for Factorio 2.1. Replaces it in existing saves: balancers, items and research carry over.
+  Features:
+    - New graphics for the balancer part, its icon and the technology.
+    - Translations: Czech, Chinese (Simplified), Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese (Brazil), Russian, Spanish, Swedish, Turkish, Ukrainian.
+  Changes:
+    - Items move straight from input to output belts. Item data (equipment grids, health, spoilage, quality) is kept.
+    - Much lower script time, especially for balancers that are backed up or have no input.
+    - Balancers built or mined by space platforms are tracked.
+    - The turbo belt balancer recipe uses turbo transport belts.
+  Bugfixes:
+    - Fixed crash when an item passed through a balancer on Factorio 2.1.
+    - Fixed crash when rotating an underground belt.
